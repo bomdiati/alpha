@@ -16,19 +16,19 @@ class LoginMessages with ChangeNotifier {
     this.recoverPasswordSuccess: defaultRecoverPasswordSuccess,
   });
 
-  static const defaultUsernameHint = 'Email';
-  static const defaultPasswordHint = 'Password';
-  static const defaultConfirmPasswordHint = 'Confirm Password';
-  static const defaultForgotPasswordButton = 'Forgot Password?';
-  static const defaultLoginButton = 'LOGIN';
-  static const defaultSignupButton = 'SIGNUP';
-  static const defaultRecoverPasswordButton = 'RECOVER';
-  static const defaultRecoverPasswordIntro = 'Reset your password here';
+  static const defaultUsernameHint = 'Nome de usuário';
+  static const defaultPasswordHint = 'Senha';
+  static const defaultConfirmPasswordHint = 'Confirmar senha';
+  static const defaultForgotPasswordButton = 'Esqueceu a senha?';
+  static const defaultLoginButton = 'ENTRAR';
+  static const defaultSignupButton = 'REGISTRAR';
+  static const defaultRecoverPasswordButton = 'Recuperar';
+  static const defaultRecoverPasswordIntro = 'Altere sua senha aqui';
   static const defaultRecoverPasswordDescription =
-      'We will send your plain-text password to this email account.';
-  static const defaultGoBackButton = 'BACK';
-  static const defaultConfirmPasswordError = 'Password do not match!';
-  static const defaultRecoverPasswordSuccess = 'An email has been sent';
+            'Nós mandaremos um e-mail com a sua nova senha.';
+  static const defaultGoBackButton = 'VOLTAR';
+  static const defaultConfirmPasswordError = 'As senhas não coincidem!';
+  static const defaultRecoverPasswordSuccess = 'E-mail enviado!';
 
   /// Hint text of the user name [TextField]
   final String usernameHint;
